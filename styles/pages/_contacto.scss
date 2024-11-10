@@ -1,0 +1,73 @@
+#contacto{
+     margin-left : 1rem;
+     margin-right : 1rem;
+   }    
+
+.contacto__formulario{
+     margin-left : 1rem;
+     margin-right : 1rem;   
+}   
+
+.ubicacion img{
+     max-width: 100%; 
+     height: auto; 
+}
+
+
+@media (max-width : 1024px) {
+
+     .contacto__title{
+          font-size: 90%;
+      }    
+      .contacto__content{
+           font-size: 80%;    
+   
+      }  
+      .contacto__label{
+           font-size: 80%;          
+      }          
+     .ubicacion__title{
+          font-size: 90%;         
+     }
+
+ }     
+
+ @media (max-width : 768px) {
+
+     .contacto__title{
+          font-size: 70%;
+      }    
+      .contacto__content{
+           font-size: 60%;          
+      }  
+      .contacto__label{
+           font-size: 60%;          
+      }  	  
+      .ubicacion__title{
+          font-size: 70%;
+     }       
+    
+
+ }    
+
+ @media (max-width : 480px) {
+
+  
+
+     .contacto__title{
+          font-size: 55%;
+      }    
+      .contacto__content{
+           font-size: 50%;    
+              
+      }  
+      .contacto__label{
+          font-size: 50%;
+     }   
+
+	 .ubicacion__title{
+          font-size: 55%;         
+     }
+    
+ 
+ }      
